@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+cd $HOME/kafka/kafka_2.12-1.0.0
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9090,localhost:9091,localhost:9092 --topic $1 --from-beginning --consumer.config config/consumer.properties

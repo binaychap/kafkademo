@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd $HOME/kafka/kafka_2.12-1.0.0/
+bin/kafka-topics.sh --zookeeper localhost:2181 --describe

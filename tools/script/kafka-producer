@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd $HOME/kafka/kafka_2.12-1.0.0/
+bin/kafka-producer-perf-test.sh --topic $1 --num-records 500000000000 --record-size 1 --throughput 100  --producer-props bootstrap.servers=localhost:9090,localhost:9091,localhost:9092 key.serializer=org.apache.kafka.common.serialization.StringSerializer value.serializer=org.apache.kafka.common.serialization.StringSerializer
+

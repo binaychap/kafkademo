@@ -10,7 +10,7 @@ import java.util.Properties;
 
 public class KafkaConsumerApp {
 
-    public static void main(String[] args) {
+    public static void  consume() {
         Properties props = new Properties();
         props.put("bootstrap.servers", "localhost:9091, localhost:9092");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer"); // type contract extends to consumer

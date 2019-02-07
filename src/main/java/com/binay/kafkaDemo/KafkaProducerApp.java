@@ -7,7 +7,7 @@ import java.util.Properties;
 import java.util.UUID;
 
 public class KafkaProducerApp {
-    public static void main(String[] args) {
+    public static void produce() {
         Properties props = new Properties();
         props.put("bootstrap.servers", "localhost:9091, localhost:9092");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");

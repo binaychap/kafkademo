@@ -1,0 +1,2 @@
+[2019-02-05 10:36:08,274] DEBUG [Controller id=0] Broker 3 has been elected as the controller, so stopping the election process. (kafka.controller.KafkaController)
+[2019-02-05 10:40:43,544] DEBUG [Controller id=0] Broker 4 was elected as controller instead of broker 0 (kafka.controller.KafkaController)

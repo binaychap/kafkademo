@@ -1,0 +1,7 @@
+[2017-11-19 17:40:03,578] WARN Client session timed out, have not heard from server in 2119007ms for sessionid 0x15fd6424aab0000 (org.apache.zookeeper.ClientCnxn)
+[2017-11-19 17:40:03,579] INFO Client session timed out, have not heard from server in 2119007ms for sessionid 0x15fd6424aab0000, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-11-19 17:40:03,681] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-11-19 17:40:04,577] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-11-19 17:40:04,577] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-11-19 17:40:04,580] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x15fd6424aab0000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-11-19 17:40:04,580] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)

@@ -1,0 +1,4 @@
+[2018-01-21 11:04:23,524] INFO Updated PartitionLeaderEpoch. New: {epoch:0, offset:0}, Current: {epoch:-1, offset-1} for Partition: my-big-topic-0. Cache now contains 0 entries. (kafka.server.epoch.LeaderEpochFileCache)
+[2018-01-21 11:04:23,524] INFO Updated PartitionLeaderEpoch. New: {epoch:0, offset:0}, Current: {epoch:-1, offset-1} for Partition: my-big-topic-1. Cache now contains 0 entries. (kafka.server.epoch.LeaderEpochFileCache)
+[2018-01-21 11:04:23,555] INFO Updated PartitionLeaderEpoch. New: {epoch:0, offset:0}, Current: {epoch:-1, offset-1} for Partition: my-big-topic-2. Cache now contains 0 entries. (kafka.server.epoch.LeaderEpochFileCache)
+[2018-01-21 11:06:08,804] INFO [GroupMetadataManager brokerId=3] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

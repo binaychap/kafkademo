@@ -1,0 +1,1 @@
+[2018-01-22 05:12:24,419] DEBUG [Controller id=3] Broker 4 was elected as controller instead of broker 3 (kafka.controller.KafkaController)

@@ -1,0 +1,35 @@
+Java HotSpot(TM) 64-Bit Server VM (24.80-b11) for bsd-amd64 JRE (1.7.0_80-b15), built on Apr 10 2015 11:25:43 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 16777216k(4194304k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:+ExplicitGCInvokesConcurrent -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=536870912 -XX:InitiatingHeapOccupancyPercent=35 -XX:+ManagementServer -XX:MaxGCPauseMillis=20 -XX:MaxHeapSize=536870912 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation 
+2019-02-06T22:16:04.956+0500: 447.640: [GC pause (young), 0.0052890 secs]
+   [Parallel Time: 3.2 ms, GC Workers: 8]
+      [GC Worker Start (ms): Min: 447640.2, Avg: 447640.2, Max: 447640.3, Diff: 0.1]
+      [Ext Root Scanning (ms): Min: 0.7, Avg: 0.9, Max: 1.1, Diff: 0.4, Sum: 7.1]
+      [Update RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Processed Buffers: Min: 0, Avg: 2.2, Max: 9, Diff: 9, Sum: 18]
+      [Scan RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+      [Object Copy (ms): Min: 1.5, Avg: 1.8, Max: 2.1, Diff: 0.6, Sum: 14.2]
+      [Termination (ms): Min: 0.0, Avg: 0.4, Max: 0.5, Diff: 0.5, Sum: 2.9]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 3.0, Avg: 3.0, Max: 3.2, Diff: 0.2, Sum: 24.4]
+      [GC Worker End (ms): Min: 447643.2, Avg: 447643.3, Max: 447643.3, Diff: 0.2]
+   [Code Root Fixup: 0.0 ms]
+   [Code Root Migration: 0.0 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 1.9 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 1.8 ms]
+      [Ref Enq: 0.0 ms]
+      [Free CSet: 0.0 ms]
+   [Eden: 25.0M(25.0M)->0.0B(21.0M) Survivors: 0.0B->4096.0K Heap: 25.0M(512.0M)->3144.0K(512.0M)]
+ [Times: user=0.02 sys=0.00, real=0.01 secs] 
+Heap
+ garbage-first heap   total 524288K, used 22600K [0x00000007dae00000, 0x00000007fae00000, 0x00000007fae00000)
+  region size 1024K, 24 young (24576K), 4 survivors (4096K)
+ compacting perm gen  total 20480K, used 9274K [0x00000007fae00000, 0x00000007fc200000, 0x0000000800000000)
+   the space 20480K,  45% used [0x00000007fae00000, 0x00000007fb70eb90, 0x00000007fb70ec00, 0x00000007fc200000)
+No shared spaces configured.

@@ -1,0 +1,1 @@
+[2018-01-21 20:14:56,899] DEBUG [Controller id=5] Broker 3 has been elected as the controller, so stopping the election process. (kafka.controller.KafkaController)

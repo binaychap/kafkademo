@@ -20,6 +20,7 @@ public class KafkaConsumerApp {
 
         ArrayList<String> topics = new ArrayList<String>();
         topics.add("deploy");
+        topics.add("assignment");
 
         myConsumer.subscribe(topics);
         try {
